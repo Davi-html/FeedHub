@@ -13,8 +13,6 @@ import {
 
 const navItems = [
   { icon: LayoutDashboard, label: "Dashboard", href: "/dashboard" },
-  { icon: MessageSquare, label: "Feedbacks", href: "/dashboard" },
-  { icon: Sparkles, label: "Respostas IA", href: "/dashboard" },
   { icon: BarChart3, label: "Analytics", href: "/dashboard" },
   { icon: Layers, label: "Integrações", href: "/dashboard" },
   { icon: Bell, label: "Notificações", href: "/dashboard" },

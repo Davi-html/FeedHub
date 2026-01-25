@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { FeedbackCard } from "./FeedbackCard";
+import { FeedbackCard } from "./FeedbackDemoCard";
 import { AIResponseModal } from "./AIResponseModal";
 import { mockFeedbacks, Feedback, Source, Sentiment } from "@/data/mockFeedbacks";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
@@ -21,6 +21,7 @@ export function FeedbackList() {
     if (activeTab === "negative") return matchesSearch && feedback.sentiment === "negative";
     return matchesSearch;
   });
+  
 
   return (
     <div className="space-y-4">

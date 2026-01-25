@@ -1,6 +1,6 @@
 import { DashboardSidebar } from "@/components/dashboard/DashboardSidebar";
 import { DashboardStats } from "@/components/dashboard/DashboardStats";
-import { FeedbackList } from "@/components/dashboard/FeedbackList";
+import { FeedbackList } from "@/components/dashboard/FeedbackDemoList";
 import { Button } from "@/components/ui/button";
 import { Bell, Plus, RefreshCw } from "lucide-react";
 

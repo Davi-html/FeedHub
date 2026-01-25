@@ -4,11 +4,8 @@ const sources = [
   { name: "Google Reviews", color: "bg-blue-500" },
   { name: "Facebook", color: "bg-blue-600" },
   { name: "Instagram", color: "bg-pink-500" },
-  { name: "Twitter/X", color: "bg-slate-600" },
-  { name: "TripAdvisor", color: "bg-green-500" },
   { name: "Email", color: "bg-amber-500" },
   { name: "WhatsApp", color: "bg-emerald-500" },
-  { name: "Reclame Aqui", color: "bg-orange-500" },
 ];
 
 export function SourcesSection() {
