@@ -27,10 +27,10 @@ export function   Navbar() {
 
         <div className="flex items-center gap-3">
           <Button variant="ghost" asChild>
-            <Link to="/dashboard">Entrar</Link>
+            <Link to="/login">Entrar</Link>
           </Button>
           <Button variant="hero" className="gap-2" asChild>
-            <Link to="/dashboard">
+            <Link to="/login">
               <Sparkles className="w-4 h-4" />
               Criar conta
             </Link>
